@@ -1,0 +1,78 @@
+.navbar{
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.jumbotron{
+	background-image: url(../img/fondo-rosa.png);
+	color: white;
+}
+
+footer{
+	background-color: black;
+	padding: 25px;
+	color: white;
+}
+
+.row.content{
+	height: auto;
+}
+
+footer > a{
+	color: white;
+}
+
+.sidenav{
+	padding-top: 30px;
+	background-color: #lightpink;
+	height: auto;
+}
+
+#contenedor{
+	padding: 5px 25px;
+	margin-top: 25px;
+	padding-bottom: 10px;
+	background-image: url(../img/fondo-morado.png);
+	color: white;
+	height: 1030px;
+}
+
+#contacto1{
+	padding-top: 80px;
+	background-color: lightpink;
+	background-image: url(../img/cita1.png);
+
+  	background-size: 100% 75%;
+
+	height: 300px;
+	margin-top: 90px;
+}
+
+
+#contacto2{
+	padding-top: 20px;
+	background-color: lightpink;
+	background-image: url(../img/salud.png);
+
+  	background-size: 115% 105%;
+
+	height: 300px;
+	margin-top: 90px;
+}
+
+#us{
+	padding: 5px 25px;
+	margin-top: 25px;
+	text-align-last: center;
+	text-align: center;
+}
+
+th{
+	background: gray;
+	color: white;
+}
+
+td{
+	vertical-align: top;
+	padding-top: 10px;
+}
