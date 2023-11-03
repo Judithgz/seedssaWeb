@@ -5,7 +5,7 @@
   ],
   "dist": "xenial",
   "php": [
-    "8.2.4"
+    "8.2"
   ],
   "install": [
     "composer install"
