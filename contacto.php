@@ -47,9 +47,11 @@ require "php/conn.php";
 <div class="container-fluid text-center">
 	<div class="row cotent">
 		<div class="col-sm-2 sidenav">
-			
-
+			<div id="contacto1">
+				<h4></h4>
+			</div>
 		</div>
+
 		<div class="col-sm-8 text-left">
 			<div class="well" id="contenedor">
 				<h2 class="text-center">Contacto</h2>
@@ -88,7 +90,9 @@ require "php/conn.php";
 			</div>
 		</div>
 		<div class="col-sm-2 sidenav">
-			
+			<div id="contacto2">
+				<h4></h4>
+			</div>
 
 		</div>
 	</div>

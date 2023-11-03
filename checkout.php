@@ -71,7 +71,7 @@ require "php/loginFunciones.php";
 					<li>Revisar</li>
 				</ol>
 				<h2 align="center">Checkout</h2> <br>
-				<form class="text-left">
+				<form action="login.php" method="post">
 					<div class="form-group">
 						<label for="email">Correo electrónico: </label>
 						<input type="email" name="email" id="email" class="form-control" required placeholder="seedssa@ejemplo.com">
@@ -86,7 +86,11 @@ require "php/loginFunciones.php";
 						<label><input type="checkbox">Recordarme</label>
 					</div>
 
-					<a href="direccion.php" class="btn btn-success">Enviar</a>
+					<input type="hidden" id="redireccion" name="redireccion" value="direccion.php">
+
+					<div class="form-group">
+						<input type="submit" name="entrar" value="Entrar" class="btn btn-success" role="button">
+					</div>
 				</form>
 			</div>
 			<br><br>

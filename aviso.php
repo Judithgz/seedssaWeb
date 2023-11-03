@@ -46,19 +46,9 @@ require "php/sesion.php";
 <div class="container-fluid text-center">
 	<div class="row cotent">
 		<div class="col-sm-2 sidenav">
-			<h4>Productos más vendidos</h4>
-			<div class="well"> Lubricante sabor cereza
-				<a href="producto.php"><img src="img/cereza.jpg" class="media-object img-responsive" width="100%" height="60%"></a>
-			</div>
-			<div class="well"> Lubricante sabor chicle
-				<a href="producto.php"><img src="img/chicle.jpg" class="media-object img-responsive" width="100%" height="60%"></a>
-			</div>
-			<div class="well"> Curso: Yoga sensible al trauma
-				<a href="producto.php"><img src="img/yoga.jpg" class="media-object img-responsive" width="100%" height="60%"></a>
-			</div>
 		</div>
 		<div class="col-sm-8 text-center">
-			<div class="well" id="contenedor">
+			<div class="well">
 				<h2>Nuestro aviso de privacidad</h2>
 				<p> Aviso de privacidad integral
 				Servicio Educación Sexualidad y Salud A.C. mejor conocido como SEEDSSA, con domicilio en Calle Prol. Av. Kabáh 92, Fovissste, 77516 Cancún, Quintana Roo, México. y portal de internet https://sites.google.com/view/seedssa, es el responsable del uso y protección de sus datos personales, y al respecto le informamos lo siguiente:
@@ -118,16 +108,6 @@ require "php/sesion.php";
 			</div>
 		</div>
 		<div class="col-sm-2 sidenav">
-			<h4>Echa un vistazo</h4>
-			<div class="well"> Lubricante sabor chocolate
-				<a href="producto.php"><img src="img/chocolate.jpg" class="media-object img-responsive" width="100%" height="60%"></a>
-			</div>
-			<div class="well"> Lubricante sabor chicle
-				<a href="producto.php"><img src="img/chicle.jpg" class="media-object img-responsive" width="100%" height="60%"></a>
-			</div>
-			<div class="well"> Lubricante sabor sandía
-				<a href="producto.php"><img src="img/sandia.jpg" class="media-object img-responsive" width="100%" height="60%"></a>
-			</div>
 		</div>
 	</div>
 </div>

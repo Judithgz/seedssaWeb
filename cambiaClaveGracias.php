@@ -3,6 +3,10 @@ require "php/sesion.php";
 require "php/conn.php";
 ?>
 
+//Por ahora se evita utilizar este doc ya que no se ha configurado lo que es SMPT para configurar correo y contraseña de donde se mandan
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -3,6 +3,7 @@
 if(isset($_POST["email"])) {
 	$email = $_POST["email"];
 	$clave = $_POST["clave"];
+	$redireccion = isset($_POST["redireccion"])?"direccion.php":null;
 	$clave2 = hash_hmac("sha512", $clave, "tumblrss");
 	$recordarme = $_POST["recordarme"];
 
@@ -28,23 +29,27 @@ if(isset($_POST["email"])) {
 		session_start();
 		//Variable de sesion
 		$_SESSION['usuario']=$usuario;
-		header("location:".$cambiaPagina);
+		if($redireccion) {
+			header("location:".$redireccion);
+		} else {
+			header("location:".$cambiaPagina);
+		} 
 	} else {
 		$error = "Contraseña o correo electrónico incorrectos.";
 	}
-}
 
-//Si la cookie existe entonces tomara los datos
-$datos = isset($_COOKIE["datos"]) ? $_COOKIE["datos"] : null;
-//Si no existe se quedaran en blanco
-$email = "";
-$clave = "";
-$recordarme = "";
-if (isset($datos)) {
-	$aDatos = explode("|", $datos);
-	$email = $aDatos[0];
-	$clave = $aDatos[1];
-	$recordarme = "checked";
-}
 
+	//Si la cookie existe entonces tomara los datos
+	$datos = isset($_COOKIE["datos"]) ? $_COOKIE["datos"] : null;
+	//Si no existe se quedaran en blanco
+	$email = "";
+	$clave = "";
+	$recordarme = "";
+	if (isset($datos)) {
+		$aDatos = explode("|", $datos);
+		$email = $aDatos[0];
+		$clave = $aDatos[1];
+		$recordarme = "checked";
+	}
+}
 ?>

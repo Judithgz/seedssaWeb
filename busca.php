@@ -57,8 +57,9 @@ if (isset($_GET["buscar"])) {
 <div class="container-fluid text-center">
 	<div class="row cotent">
 		<div class="col-sm-2 sidenav">
-			<h4>Productos más vendidos</h4>
-
+			<div id="contacto1">
+				<h4></h4>
+			</div>
 		</div>
 		<div class="col-sm-8 text-left">
 			<div class="well" id="contenedor">
@@ -79,7 +80,9 @@ if (isset($_GET["buscar"])) {
 			</div>
 		</div>
 		<div class="col-sm-2 sidenav">
-			<h4>Echa un vistazo</h4>
+			<div id="contacto2">
+				<h4></h4>
+			</div>
 
 		</div>
 	</div>

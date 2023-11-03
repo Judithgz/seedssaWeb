@@ -2,6 +2,8 @@
 require "php/conn.php";
 require "php/sesion.php";
 
+//Por ahora se evita utilizar este doc ya que no se ha configurado lo que es SMPT para configurar correo y contraseña de donde se mandan
+
 
 //Verificar si se envia la informacion
 if (isset($_GET["id"])) {
@@ -81,16 +83,6 @@ if (isset($_POST["id"])) {
 <div class="container-fluid text-center">
 	<div class="row cotent">
 		<div class="col-sm-2 sidenav">
-			<h4>Productos más vendidos</h4>
-			<div class="well"> Lubricante sabor cereza
-				<a href="producto.php"><img src="img/cereza.jpg" class="media-object img-responsive" width="100%" height="60%"></a>
-			</div>
-			<div class="well"> Lubricante sabor chicle
-				<a href="producto.php"><img src="img/chicle.jpg" class="media-object img-responsive" width="100%" height="60%"></a>
-			</div>
-			<div class="well"> Curso: Yoga sensible al trauma
-				<a href="producto.php"><img src="img/yoga.jpg" class="media-object img-responsive" width="100%" height="60%"></a>
-			</div>
 		</div>
 		<div class="col-sm-8 text-left">
 			<div class="well" id="contenedor">
@@ -126,15 +118,8 @@ if (isset($_POST["id"])) {
 			</div>
 		</div>
 		<div class="col-sm-2 sidenav">
-			<h4>Echa un vistazo</h4>
-			<div class="well"> Lubricante sabor chocolate
-				<a href="producto.php"><img src="img/chocolate.jpg" class="media-object img-responsive" width="100%" height="60%"></a>
-			</div>
-			<div class="well"> Lubricante sabor chicle
-				<a href="producto.php"><img src="img/chicle.jpg" class="media-object img-responsive" width="100%" height="60%"></a>
-			</div>
-			<div class="well"> Lubricante sabor sandía
-				<a href="producto.php"><img src="img/sandia.jpg" class="media-object img-responsive" width="100%" height="60%"></a>
+		<div id="contacto1">
+				<h4></h4>
 			</div>
 		</div>
 	</div>

@@ -67,16 +67,16 @@ require "php/loginFunciones.php";
 				<form action="login.php" method="post">
 					<div class="form-group">
 						<label for="email">Correo electrónico: </label>
-						<input type="email" name="email" id="email" class="form-control" required placeholder="seedssa@ejemplo.com" value="<?php print $email; ?>">
+						<input type="email" name="email" id="email" class="form-control" required placeholder="seedssa@ejemplo.com">
 					</div>
 
 					<div class="form-group">
 						<label for="clave">Contraseña: </label>
-						<input type="password" name="clave" id="clave" class="form-control" required placeholder="Escribe tu contraseña" value="<?php print $clave; ?>">
+						<input type="password" name="clave" id="clave" class="form-control" required placeholder="Escribe tu contraseña">
 					</div>
 
 					<div class="checkbox">
-						<label><input type="checkbox" id="recordarme" name="recordarme" <?php print $recordarme; ?>>Recordarme</label>
+						<label><input type="checkbox" id="recordarme" name="recordarme">Recordarme</label>
 					</div>
 
 					<div class="form-group">

@@ -35,6 +35,8 @@ function despliegaCarrito($carrito, $conn){
 	$total = $subtotal + $envio - $descuento;
 	return number_format($total,2);
 }
+
+
 function actualizaProducto($carrito, $producto, $cantidad, $conn){
 	$sql = "UPDATE carrito ";
 	$sql .= "SET cantidad=".$cantidad." ";
@@ -42,9 +44,13 @@ function actualizaProducto($carrito, $producto, $cantidad, $conn){
 	if(!mysqli_query($conn, $sql)) print "Error al modificar un registro";
 
 }
+
+
 function llaveCarrito($len) { 
     return substr(str_shuffle("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"), 0, $len); 
 }
+
+
 function agregaProducto($carrito, $id, $precio, $descuento, $envio, $conn){
 	//Verificamos que no exista el producto en el carrito
 	$sql = "SELECT * FROM carrito WHERE num='".$carrito."' AND idProducto=".$id;
@@ -63,6 +69,8 @@ function agregaProducto($carrito, $id, $precio, $descuento, $envio, $conn){
 		}
 	}
 }
+
+
 function despliegaCarritoCompleto($carrito, $verifica, $conn){
 	//Variables de trabajo
 	$subtotal = 0;
