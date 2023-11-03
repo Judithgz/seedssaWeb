@@ -1,8 +1,8 @@
 <?php
 use PHPUnit\Framework\TestCase;
-require 'php\loginFunciones.php';
-require 'php\funciones.php';
-require 'php\carritofunciones.php';
+require 'php/loginFunciones.php';
+require 'php/funciones.php';
+require 'php/carritofunciones.php';
 //require 'C:\xampp\htdocs\SEEDSSAWEB\php\loginFunciones.php'; // Reemplaza con la ruta correcta
 //require 'C:\xampp\htdocs\SEEDSSAWEB\php\funciones.php';
 //require 'C:\xampp\htdocs\SEEDSSAWEB\php\carritofunciones.php';
@@ -19,7 +19,7 @@ class carritoTest extends \PHPUnit\Framework\TestCase
 
         // Llama a la función de inicio de sesión
         ob_start();
-        require 'C:\xampp\htdocs\SEEDSSAWEB\login.php'; // Reemplaza con la ruta correcta
+        require 'login.php'; // Reemplaza con la ruta correcta
         ob_end_clean();
 
         // Verifica que el usuario haya iniciado sesión correctamente

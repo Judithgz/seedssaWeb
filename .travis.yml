@@ -16,9 +16,6 @@
   "before_script": [
     "composer self-update"
   ],
-  "autoload": {
-    "files": ["loginFunciones.php"],
-  },
   "script": [
     "phpunit carritoTest.php"
   ]
