@@ -1,0 +1,14 @@
+{
+    "name": "judithgz/seedssa-web",
+    "description": "Proyecto de Seedssa Web para materia Taller de productividad basado en herramientas tecnologicas.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Judithgz",
+            "email": "judithnarvaez27@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
