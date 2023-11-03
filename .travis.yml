@@ -17,11 +17,12 @@
     "composer self-update"
   ],
   "env": {
-    "jobs": 
-    HOST = "localhost"
+    "jobs": [
+    {HOST = "localhost"
     USUARIO = "root"
     CLAVE = ""
-    DB= "seedssadb"
+    DB= "seedssadb"}
+    ]
   },
   "services": [
     "mysql"
