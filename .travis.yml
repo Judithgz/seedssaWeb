@@ -16,6 +16,9 @@
   "before_script": [
     "composer self-update"
   ],
+  "services": [
+    "mysql"
+  ],
   "script": [
     "phpunit carritoTest.php"
   ]
