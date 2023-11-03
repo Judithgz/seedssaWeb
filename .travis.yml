@@ -1,7 +1,7 @@
 {
   "language": "php",
   "os": [
-    "windows"
+    "linux"
   ],
   "dist": "xenial",
   "php": [
@@ -14,4 +14,6 @@
     "phpunit"
   ]
 }
+
+
 
