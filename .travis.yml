@@ -5,10 +5,16 @@
   ],
   "dist": "xenial",
   "php": [
-    "8.2"
+    "7.5"
+  ],
+  "before_install": [
+    "composer --version"
   ],
   "install": [
     "composer install"
+  ],
+  "before_script": [
+    "composer self-update"
   ],
   "script": [
     "phpunit"
