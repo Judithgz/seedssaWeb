@@ -17,7 +17,7 @@
     "composer self-update"
   ],
   "script": [
-    "phpunit tests/carritoTest.php"
+    "phpunit carritoTest.php"
   ]
 }
 
