@@ -1,4 +1,6 @@
-#Tienda Virtual SEEDSSA Web.
+# Bienvenido!
+
+## Tienda Virtual SEEDSSA Web.
 
 ## Objetivo
 Proyecto para la materia Taller de productividad basada en herramientas tecnológicas.
@@ -11,7 +13,7 @@ Los usuarios administradores tendrán acceso a un login solamente, usuario dado 
 Al igual podrán borrar los productos si así lo desean o modificarlos. 
 Podrán visualizar los pedidos que han hecho los usuarios y en que estado se encuentran según el usuario lo haya dejado, entre otras funciones.
 ## Uso
-Para poder usar SEEDSA Web de manera local necesitamos:
+Para poder usar SEEDSSA Web de manera local necesitamos:
 - XAMPP
 - VSCode o SublimeText
 - Git Bash

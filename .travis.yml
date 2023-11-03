@@ -5,7 +5,7 @@
   ],
   "dist": "xenial",
   "php": [
-    "7.5"
+    "7.4"
   ],
   "before_install": [
     "composer --version"
