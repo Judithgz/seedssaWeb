@@ -18,10 +18,9 @@
   ],
   "env": {
     "jobs": [
-    {HOST = "localhost"
-    USUARIO = "root"
-    CLAVE = ""
-    DB= "seedssadb"}
+    {
+      "HOST = \"localhost\" USUARIO = \"root\" CLAVE = \"\" DB= \"seedssadb\"": null
+    }
     ]
   },
   "services": [
