@@ -14,7 +14,8 @@
     "composer install"
   ],
   "before_script": [
-    "composer self-update"
+    "composer self-update",
+    mysql -e 'CREATE DATABASE seedssadb;'
   ],
   "env": {
     "jobs": [
