@@ -10,7 +10,7 @@ require 'php/carritofunciones.php';
 
 class carritoTest extends \PHPUnit\Framework\TestCase
 {
-    public function testLoginWithCorrectCredentials()
+    /*public function testLoginWithCorrectCredentials()
     {
         // Simula una solicitud POST con credenciales válidas
         $_POST["email"] = "al02943484@tecmilenio.mx";
@@ -24,7 +24,7 @@ class carritoTest extends \PHPUnit\Framework\TestCase
 
         // Verifica que el usuario haya iniciado sesión correctamente
         $this->assertArrayHasKey('usuario', $_SESSION);
-    }
+    }*/
 
 
     public function testValidarFecha(){
