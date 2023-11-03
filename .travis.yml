@@ -1,10 +1,17 @@
-language: php
-
-php:
-- 8.2.4
-
-install: 
-  - composer install
-script: 
-  - phpunit
+{
+  "language": "php",
+  "os": [
+    "windows"
+  ],
+  "dist": "xenial",
+  "php": [
+    "8.2.4"
+  ],
+  "install": [
+    "composer install"
+  ],
+  "script": [
+    "phpunit"
+  ]
+}
 
